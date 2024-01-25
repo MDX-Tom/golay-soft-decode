@@ -1,6 +1,7 @@
 
 %% Golay encode (using codeword table)
-% message: binary 12x1 vector
+% input: message: binary(logical) 12x1 vector
+% output: codeword: binary(logical) 24x1 vector
 
 function codeword = golay_encode(message)
     persistent golay_table
