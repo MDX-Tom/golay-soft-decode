@@ -1,4 +1,4 @@
-# golay-ml-decode
+# golay-soft-decode
  (24,12) Golay code encoder and MAP soft-decision decoder for Matlab.
  
  The decoding method is based on a simple test for a noisy received codeword with all legal codewords, 
